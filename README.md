@@ -1,7 +1,7 @@
 # nh-copy
 A complete solution to copy text in browser.
 
-It uses zeroClipboard by default to perform copy operation, if browser do not support flash use [execCommand] document.execCommand() instead.
+It uses zeroClipboard by default to perform copy operation, if browser do not support flash use [document.execCommand()] instead.
 
 #Test this example
 
