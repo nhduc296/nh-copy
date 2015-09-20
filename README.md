@@ -17,7 +17,8 @@ Using document.execCommand() only.
 If flash is supported use zeroClipboard to perform copy operation.
 else check if firefox 41+ or chrome 43+ using document.execCommand() and selection API instead.
 
-#to do
+#To do
+- Make sure chrome and firefox version detect function always work properly.
 - Support setting to use document.execCommand() only.
 - Format source code to easy further customization.
 - Add website to use this example.
