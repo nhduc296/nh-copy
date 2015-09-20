@@ -1,7 +1,3 @@
-/**
- * Created by duc on 19/09/2015.
- */
-//flash installed: true
 (function () {
     //if the SWF file is hosted in different directory as ZeroClipboard.js, you need to set the URL
     //should do this when minify source code

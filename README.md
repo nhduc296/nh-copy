@@ -3,6 +3,13 @@ A complete solution to copy text in browser.
 
 It uses zeroClipboard by default to perform copy operation, if browser do not support flash use [execCommand] document.execCommand() instead.
 
+#Test this example
+
+```js
+bower install
+```
+Open index.html
+
 #Support browser
 Using [zeroClipboard] and [document.execCommand()].
 - IE9+

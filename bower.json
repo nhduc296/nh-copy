@@ -9,6 +9,9 @@
     "test",
     "tests"
   ],
+  "main": [
+    "app.js"
+  ],
   "devDependencies": {
   },
   "dependencies": {
