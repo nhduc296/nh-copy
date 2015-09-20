@@ -8,7 +8,7 @@ It uses zeroClipboard by default to perform copy operation, if browser do not su
 ```js
 bower install
 ```
-Open index.html
+Open index.html.
 
 #Support browser
 Using [zeroClipboard] and [document.execCommand()].
