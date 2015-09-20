@@ -1,0 +1,17 @@
+{
+  "name": "nh-copy",
+  "version": "0.0.1",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+  },
+  "dependencies": {
+    "zeroclipboard": "~2.2.0"
+  }
+}
