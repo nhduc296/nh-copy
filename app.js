@@ -19,7 +19,7 @@
             jsCopy()
         }
 
-    } else if (!!document.queryCommandSupported('copy') || getChromeVersion() > 43) {
+    } else if (!!document.queryCommandSupported('copy') || getChromeVersion() >= 43 || getFirefoxVersion() >= 41) {
         //select button element
         //TODO: use modernizr to detect flash
         //add copy click listener
@@ -103,7 +103,11 @@
      */
     function getChromeVersion() {
         var raw = navigator.userAgent.match(/Chrom(e|ium)\/([0-9]+)\./);
-
         return raw ? parseInt(raw[2], 10) : false;
+    }
+
+    function getFirefoxVersion() {
+        var raw = navigator.userAgent.match(/Firefox\/([0-9]+)\./);
+        return raw ? parseInt(raw[1], 10) : false;
     }
 })();
