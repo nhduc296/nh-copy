@@ -26,6 +26,7 @@ If flash is supported use zeroClipboard to perform copy operation.
 else check if firefox 41+ or chrome 43+ using [document.execCommand()] and selection API instead.
 
 #To do
+- Using [bowser] for detect browser version
 - Make sure chrome and firefox version detect function always work properly.
 - Support setting to use [document.execCommand()]  only.
 - Format source code to easy further customization.
@@ -44,3 +45,4 @@ license MIT.
 [cut-and-copy-commands]: <https://developers.google.com/web/updates/2015/04/cut-and-copy-commands>
 [document.execCommand()]: <https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand>
 [zeroClipboard]: <http://zeroclipboard.org/>
+[bowser]: https://github.com/ded/bowser
